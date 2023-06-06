@@ -6,7 +6,7 @@ This project analyzes celestial angles and identifies photogenic moments in spac
 
 ## Installation
 
-To run this project, you need to have the following packages installed:
+To run this project, you need to have Jupyter Notebook installed. You also need the following packages:
 
 - `spiceypy`
 - `numpy`
@@ -16,23 +16,26 @@ To run this project, you need to have the following packages installed:
 You can install these packages using `pip`, the Python package installer. Open a terminal or command prompt and run the following command:
 
 ```bash
-pip install spiceypy numpy pandas matplotlib
+pip install jupyter spiceypy numpy pandas matplotlib
 ```
 
 ## Usage
 
 1. Clone or download this repository to your local machine.
 2. Open a terminal or command prompt and navigate to the project directory.
-3. Ensure that the required packages are installed by running the installation command mentioned above.
-4. Run the project by executing the Python script `celestial_angles_analysis.py`. Use the following command:
+3. Launch Jupyter Notebook by running the following command:
 
    ```bash
-   python celestial_angles_analysis.py
+   jupyter notebook
    ```
 
-   This will compute the celestial angles and generate a plot showing the miscellaneous phase angles.
+   This will open a web browser with the Jupyter Notebook interface.
 
-5. The resulting plot will be saved as `VENUS_SUN_MOON.png` in the project directory.
+4. In the Jupyter Notebook interface, navigate to the project directory and open the `planets_in_the_sky.ipynb` notebook.
+
+5. Follow the instructions provided in the notebook to execute the code cells and analyze the celestial angles.
+
+6. The resulting plot will be displayed within the notebook.
 
 ## Operating System-Specific Instructions
 
